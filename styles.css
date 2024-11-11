@@ -109,8 +109,25 @@ body {
     border-radius: 10px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 200px;
+    gap: 15px;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
 
+.quote-person {
+    font-weight: 900;
+    font-size: 20px;
+    align-self: flex-end;
+}
 
 .footer-container {
     display: flex;
