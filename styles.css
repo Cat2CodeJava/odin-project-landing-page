@@ -17,7 +17,9 @@ body {
     padding-right: 120px;
 }
 
-.header-logo, .header-links, .hero-secondary-text {
+.header-logo,
+.header-links,
+.hero-secondary-text {
     color: #E5E7EB;
 }
 
@@ -144,7 +146,7 @@ body {
     gap: 100px;
 }
 
-.cat-text{
+.cat-text {
     display: flex;
     flex-direction: column;
     gap: 5px;
