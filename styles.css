@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header-logo, .header-links, .hero-secondary-text {
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    background-color: #1F2937;
+    font-size: 18px;
+    flex: 1;
+    column-gap: 50px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    border: none;
+
+}
+
+.hero-image {
+    background-color: grey;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+}
+
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
