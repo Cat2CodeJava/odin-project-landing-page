@@ -75,6 +75,41 @@ body {
     height: 250px;
 }
 
+.random-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.random-info-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 220px;
+    gap: 10px;
+    text-align: center;
+}
+
+.square {
+    flex: 1;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+
 
 
 .footer-container {
